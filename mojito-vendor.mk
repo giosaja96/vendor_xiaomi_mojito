@@ -1268,7 +1268,6 @@ PRODUCT_PACKAGES += \
     IWlanService \
     SoterService \
     TimeService \
-    com.qualcomm.qti.gpudrivers.sm6150.api30 \
     PowerOffAlarm \
     DeviceInfo \
     ImsRcsService \
