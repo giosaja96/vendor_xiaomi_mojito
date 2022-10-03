@@ -276,3 +276,14 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+cc_prebuilt_binary {
+	name: "npu_launcher",
+	owner: "xiaomi",
+	srcs: ["proprietary/vendor/bin/npu_launcher"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
